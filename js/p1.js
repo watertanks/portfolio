@@ -2,13 +2,17 @@
 
 
 
-    let passReg = 'hello world'
-$('.logIn input[name=passWord]').on('push',function(){
+
+
+    let passReg = /hello world/
+
+$('.btn').on('click',function(){
     if( !passReg.test($('input[name=passWord]').val()) ){
-        alert('비밀번호가 틀렸습니다.')
-        $('input[name=password]').focus();
+        alert('접속코드가 틀렸습니다.')
+        $('input[name=passWord]').focus();
         return;
     }else{
-        window.HTML(src="./port1.html")
+        window.HTML("./port1.html")
     }
 })
+

@@ -21,12 +21,31 @@ a{text-decoration: none;}
 .wrap{
     position: relative;
     height: 100vh;
+    background-color: #000;
 }
 
 
 
 .logIn{
     position: absolute;
-    left: 50%; top: 50%;
+    left: 25%; top: 50%;
     transform: translateX(-50%);
+    transform: translateY(-50%);
+    width: 800px; height: 400px;
+}
+.logIn li{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 200px;
+    position: absolute;
+    top: 40%; left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+}
+
+.btn{
+    width: 100px;
+    margin-top: 10px;
 }
