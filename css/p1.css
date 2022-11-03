@@ -8,7 +8,6 @@ html,body{
 b{font-size: 40px}
 *{
     box-sizing: border-box;
-
 }
 ul,li{
     list-style-type: none;
@@ -18,34 +17,51 @@ h1,h2,h3,h4,h5,h6,p,figure{ margin:0; }
 img{vertical-align: top;}
 a{text-decoration: none;}
 
+
 .wrap{
-    position: relative;
+    width: 100vw;
     height: 100vh;
-    background-color: #000;
+    background-color: #ddd;
+    transition: 1s;
+    position: relative;
 }
 
-
-
-.logIn{
-    position: absolute;
-    left: 25%; top: 50%;
-    transform: translateX(-50%);
-    transform: translateY(-50%);
-    width: 800px; height: 400px;
+.main{
+    display: flex;
 }
-.logIn li{
-    align-items: center;
-    text-align: center;
+
+.main > div{
+    width: 30%;
+    height: 100vh;
+    border: 3px solid #4165a1;
+    background-color: #4165a1;
     color: #fff;
-    border: 2px solid #fff;
-    width: 200px;
-    position: absolute;
-    top: 40%; left: 50%;
-    transform: translateX(-50%);
-    height: 100px;
 }
+.main > div{
+    padding-left: 5%;
+}
+.main >div h1{
+    font-size: 30px;
+}
+.main > div h2{
+    margin-top: 50%;
+    font-size: 50px;
+}
+.con{
+    position: absolute;
+    top: 30%; left: 40%;
+}
+.con h2{
+    font-size: 30px;
 
-.btn{
-    width: 100px;
-    margin-top: 10px;
+}
+.con div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border-top: 1px solid #000;
+    width: 100vw;
+}
+.con div li{
+    margin-top: 50px;
 }
