@@ -50,11 +50,11 @@ a{text-decoration: none;}
 }
 .con{
     position: absolute;
-    top: 30%; left: 40%;
+    top: 30%; left: 45%;
 }
 .con h2{
     font-size: 30px;
-
+    color: #4165a1;
 }
 .con div{
     display: flex;
@@ -65,4 +65,5 @@ a{text-decoration: none;}
 }
 .con div li{
     margin-top: 50px;
+    font-weight: bold;
 }
