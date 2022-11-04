@@ -1,0 +1,29 @@
+@charset "utf-8";
+@import url(./basic.css);
+
+.con{
+    position: absolute;
+    top: 10%; left: 35%;
+}
+.con h2{
+    font-size: 30px;
+    color: #4165a1;
+}
+.con div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border-top: 1px solid #000;
+    width: 100vw;
+}
+.con img{
+    width: 20vw;
+    height: 20vh;
+}
+.con h2 {
+    margin-top: 5rem;
+}
+.con div li{
+    margin-top: 50px;
+    font-weight: bold;
+}
