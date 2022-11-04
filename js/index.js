@@ -5,7 +5,9 @@
 
 
     let passReg = /hello world/
+
     var p1Link = './port1.html'
+    
 $('.btn').on('click',function(){
     event.preventDefault()
     if( !passReg.test($('input[name=passWord]').val()) ){
