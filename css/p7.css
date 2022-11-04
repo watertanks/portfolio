@@ -3,7 +3,7 @@
 
 .con{
     position: absolute;
-    top: 10%; left: 35%;
+    top: 5%; left: 35%;
 }
 .con h2{
     font-size: 30px;
@@ -16,9 +16,13 @@
     border-top: 1px solid #000;
     width: 100vw;
 }
+.con figure{
+    display: flex;
+    overflow-x: hidden;
+}
 .con img{
-    width: 20vw;
-    height: 22vh;
+    position: relative;
+    width: 50%
 }
 .con h2 {
     margin-top: 2rem;
