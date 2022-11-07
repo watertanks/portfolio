@@ -27,6 +27,9 @@
 .con h2 {
     margin-top: 2rem;
 }
+.con a{
+    color: #000;
+}
 .con div li{
     margin-top: 40px;
     font-weight: bold;
