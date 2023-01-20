@@ -32,3 +32,15 @@ $(document).keyup(function(event){
 // 상 : 38
 // 우 : 39
 // 하 : 40
+
+
+
+
+
+
+
+
+
+
+
+

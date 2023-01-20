@@ -1,5 +1,7 @@
 
 
+var frm = document.frmCart.chk;
+var chked = eval(frm.value(), ",");
 
 
 
